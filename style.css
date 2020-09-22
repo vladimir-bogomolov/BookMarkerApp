@@ -77,3 +77,44 @@ input:focus {
     color: white;
     outline: none;
 }
+
+#light {
+    background: rgb(255, 83, 83);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: none;
+    margin: auto;
+}
+
+#yourSites div {
+    background: gray;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid azure;
+    width: 40vw;
+}
+
+#yourSites a {
+    text-decoration: none;
+    background: rgb(44, 159, 253);
+    border: 3px solid rgb(70, 177, 248);
+    font-size: 20px;
+    color: lightgray;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#yourSites button {
+    background: rgb(250, 65, 65);
+    font-size: 20px;
+    border: none;
+    color: lightgray;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
