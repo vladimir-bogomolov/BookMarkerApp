@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMarker App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h3>Please insert the url and the name for the web-page</h3>
+        <form id="form" action="">
+            <p>
+                <input type="text" id="WedSiteName" placeholder="Name" name="WebsiteName">
+            </p>
+            <p>
+                <input type="url" id="URL" placeholder="URL" name="url">
+            </p>
+            <p class="button">
+                <button type="submit" id="submit">Insert</button>
+                <button type="button" id="list">Check your list</button>
+
+            </p>
+        </form>
+        <div id="container">
+            <p>
+                <a href="#" id="close">&times;</a>
+            </p>
+            <div id="yourSites">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
